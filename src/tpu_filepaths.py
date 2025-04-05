@@ -11,7 +11,7 @@ from dataclasses import dataclass, field
 class Files:
     current_platform: str = field(init=False)
     filepaths: list = field(default_factory=lambda: [
-        'logging/tpu.log', 'data/output', 'data/input', 'data/input_thumbs', 
+        'logging/tpu.log', 'data/output', 'data/input', 'data/input_thumbs', 'data/input_resize', 
     ])
     win_filepaths: list = field(default_factory=list)
 
